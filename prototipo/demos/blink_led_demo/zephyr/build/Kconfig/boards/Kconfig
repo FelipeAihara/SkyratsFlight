@@ -1,0 +1,2 @@
+# Load Zephyr board Kconfig descriptions.
+osource "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/boards/weact/blackpill_f411ce/Kconfig"

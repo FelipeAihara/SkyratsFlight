@@ -1,0 +1,85 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/fyaih/programacao/zephyr_ws/.venv/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:146 (include)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      The target system is: Generic - 4.4.99 - arm
+      The host system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/fyaih/programacao/zephyr_ws/.venv/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/.venv/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/.venv/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:146 (include)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/fyaih/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/projects/SkyratsFlight/prototipo/blink_led/bare_metal/build/CMakeFiles/3.31.10/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/fyaih/programacao/zephyr_ws/.venv/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/.venv/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/.venv/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/cmake/modules/kernel.cmake:129 (project)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:146 (include)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/fyaih/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/projects/SkyratsFlight/prototipo/blink_led/bare_metal/build/CMakeFiles/3.31.10/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/fyaih/programacao/zephyr_ws/.venv/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1238 (message)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/.venv/Lib/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/cmake/modules/kernel.cmake:135 (enable_language)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:146 (include)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:66 (include)"
+      - "C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:92 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-zephyr-eabi-gcc.exe (Zephyr SDK 1.0.1) 14.3.0
+      Copyright (C) 2024 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+...

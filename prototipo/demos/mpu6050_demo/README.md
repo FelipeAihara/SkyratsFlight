@@ -1,0 +1,1 @@
+Código teste para verificar comunicação com o módulo MPU6050 (acelerômetro / giroscópio)

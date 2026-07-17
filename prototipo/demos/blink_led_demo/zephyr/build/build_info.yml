@@ -1,0 +1,61 @@
+cmake:
+  application:
+    configuration-dir: 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/projects/SkyratsFlight/prototipo/blink_led/zephyr'
+    source-dir: 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/projects/SkyratsFlight/prototipo/blink_led/zephyr'
+  board:
+    name: 'blackpill_f411ce'
+    path:
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/boards/weact/blackpill_f411ce'
+    qualifiers: 'stm32f411xe'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts/bindings'
+    files:
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/boards/weact/blackpill_f411ce/blackpill_f411ce.dts'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/projects/SkyratsFlight/prototipo/blink_led/zephyr/boards/blackpill_f411ce.overlay'
+    include-dirs:
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/modules/hal/ambiq/dts'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/modules/hal/atmel/include'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/modules/hal/bouffalolab/include'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/modules/hal/gigadevice/include'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/modules/hal/microchip/include'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/modules/hal/microchip/dts'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/modules/hal/nuvoton/dts'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/modules/hal/nxp/dts'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/modules/hal/stm32/dts'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/modules/hal/ti/dts'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/include'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/include/zephyr'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts/common'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts/vendor'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts/rx'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts/x86'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts/xtensa'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts/sparc'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts/riscv'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts/posix'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts/arm64'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts/arm'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts/arc'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/dts'
+    user-files:
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/projects/SkyratsFlight/prototipo/blink_led/zephyr/boards/blackpill_f411ce.overlay'
+  kconfig:
+    files:
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr/boards/weact/blackpill_f411ce/blackpill_f411ce_defconfig'
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/projects/SkyratsFlight/prototipo/blink_led/zephyr/prj.conf'
+    user-files:
+     - 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/projects/SkyratsFlight/prototipo/blink_led/zephyr/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/Users/fyaih/zephyr-sdk-1.0.1'
+  zephyr:
+    version: '4.4.99'
+    zephyr-base: 'C:/Users/fyaih/programacao/zephyr_ws/zephyrproject/zephyr'
+version: '0.1.0'
+west:
+  command: 'C:\Users\fyaih\programacao\zephyr_ws\.venv\Scripts\west build -p always -b blackpill_f411ce'
+  topdir: 'C:\Users\fyaih\programacao\zephyr_ws\zephyrproject'
+  version: '1.5.0'
